@@ -1,1 +1,2 @@
+-- TODO
 -- Among the loans taken by a borrower named "John Smith", find those with highest `minCredit` requirement. If John took out no loans, the result is empty. The output should be a table with a `loanNo` column.

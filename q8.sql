@@ -1,1 +1,2 @@
+-- TODO
 -- Find the total amount borrowed by "John Smith". If he took out no loans, then output 0. The output should be a table with a `borrowedAmount` column.
