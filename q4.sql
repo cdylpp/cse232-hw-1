@@ -1,3 +1,4 @@
+-- TODO
 -- Find pairs (name1, name2) of customers who share the same loan.
 -- Avoid listing a customer with themselves i.e. (Alice, Alice) should not exist in the output.
 -- Avoid non-distinct pairs, including modulo swapping.
