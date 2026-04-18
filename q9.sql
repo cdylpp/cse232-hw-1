@@ -9,5 +9,5 @@ where b.cname = 'John Smith'
         select max(l2.minCredit)
         from borrower b2, loan l2
         where b2.cname = 'John Smith'
-            and b2.ln0 = l2.no
+            and b2.lno = l2.no
     );
