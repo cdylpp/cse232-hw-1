@@ -4,6 +4,10 @@ select distinct name
 from customer
 join borrower on name = cname
 join loan on lno = no
-where type = 'jumb mortgage' or credit >= 750;
+where type = 'jumbo mortgage'
+union
+select name
+from customer
+where credit >= 750;
 
 
